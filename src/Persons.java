@@ -1,9 +1,16 @@
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Persons {
 
 	String name;
 	int age;
 	String gender;
+	
+	
+	public Persons() {
+		super();
+	}
 	public String getName() {
 		return name;
 	}
